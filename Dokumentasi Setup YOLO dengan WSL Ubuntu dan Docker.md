@@ -66,7 +66,7 @@ cd /mnt/d/Cursor/server  # Sesuaikan dengan path Anda
 
 ### 2. Menjalankan Container
 ```bash
-docker run -it --rm \
+docker run -it \
     --network host \
     --device=/dev/video0:/dev/video0 \
     --device=/dev/video1:/dev/video1 \
